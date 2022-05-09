@@ -1,15 +1,13 @@
 import Link from 'next/link';
+import HeaderPortfolio from '../../components/HeaderPortfolio';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faCodePullRequest, faDisplay } from '@fortawesome/free-solid-svg-icons';
+
 
 const quizApp = () => {
   return (
     <div>
-      <header className="w-[100%] bg-gray-800 text-white flex justify-start px-12 py-6 h-auto">
-        <Link href='/'>
-          <a>
-            <span>{'<= '}Volver</span>
-          </a>
-        </Link>
-      </header>
+      <HeaderPortfolio />
       <section className="w-[100%] h-[100vh] bg-gray-700">
         <div className='w-[90%] h-[80%] py-12 mx-auto flex flex-row justify-start items-start'>
           <div className='flex flex-col w-[40%] h-auto'>
@@ -17,12 +15,14 @@ const quizApp = () => {
             <div className='flex w-[100%] justify-between mt-9 items-center'>
               <Link href=''>
                 <a className='text-white bg-gray-900 border-2 border-black w-[200px] h-auto py-2 text-center font-Montserrat font-semibold hover:bg-gray-500 duration-500' target='_blank'>
-                  visitar sitio web
+                  <span className='pr-2'>visitar sitio web</span>
+                  <FontAwesomeIcon icon={faDisplay} />
                 </a>
               </Link>
               <Link href=''>
                 <a className='text-white bg-gray-900 border-2 border-black w-[200px] h-auto py-2 text-center font-Montserrat font-semibold hover:bg-gray-500 duration-500' target='_blank'>
-                  Repositorio GitHub
+                  <span className='pr-2'>Repositorio GitHub</span>
+                  <FontAwesomeIcon icon={faCodePullRequest} />
                 </a>
               </Link>
             </div>

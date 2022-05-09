@@ -9,10 +9,10 @@ import {faBars, faXmark} from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
   const [menuMobile, setMenuMobile ] = useState(false);
 
-  return (
-    <div className='w-[100vw] h-auto flex px-12 py-4 bg-gray-900 fixed shadow-xl justify-between'>
+  return ( 
+    <header className='z-50 w-[100vw] h-auto flex px-12 py-4 bg-gray-900 fixed shadow-xl justify-between'>
       <h1 className="text-3xl font-semibold text-violet-500"><span className="text-white">/\</span> Dylan Peralta</h1>
-      <div className='hidden lg:block'>
+      <div className='hidden my-auto lg:block'>
         <NavLinks />  
       </div>
       <div className='block lg:hidden'>
@@ -30,7 +30,7 @@ const Header = () => {
               />)
           }
       </div>
-    </div>
+    </header>
   )
 }
 

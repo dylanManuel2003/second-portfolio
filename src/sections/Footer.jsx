@@ -1,3 +1,5 @@
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faLinkedinIn, faInstagramSquare, faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
@@ -11,13 +13,13 @@ const Footer = () => {
           <h3 className="text-3xl">Social Media</h3>
           <div className="mx-auto w-[152px]">
             <a href="https://www.linkedin.com/in/dylan-peralta-a947a4217/" title="@Dylan Peralta" target="_blank" className="p-3">
-              <i className="fab fa-linkedin"></i>
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a href="https://www.instagram.com/dylann_peralta/?hl=es" title="@dylann_peralta" target="_blank" className="p-3">
-              <i class="fab fa-instagram-square"></i>
+              <FontAwesomeIcon icon={faInstagramSquare} />
             </a>
             <a href="#contact" title="dylanperaltasalerno@gmail.com" className="p-3">
-              <i class="fas fa-envelope-square"></i>
+              <FontAwesomeIcon icon={faEnvelopeSquare} />
             </a>
           </div>
         </div>

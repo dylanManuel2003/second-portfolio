@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const NavLinks = () => {
   return (
-    <nav className='flex flex-col items-center text-white lg:justify-between lg:flex-row'>
+    <nav className='flex flex-col items-center text-white lg:justify-center lg:flex-row'>
         <Link 
             className='navLinks'
             to="sectionHome"

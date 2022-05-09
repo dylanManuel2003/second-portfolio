@@ -18,10 +18,10 @@ const Portfolio = () => {
               <h3 className="mt-4 text-2xl">JavaScript Quiz</h3>
             </a>
           </Link>
-          <Link href={''}>
+          <Link href={'/pageapp/js-curso'}>
             <a className="w-[90%] lg:w-1/3 h-[250px] bg-gray-900 mx-5 text-center border-4 border-whiter rounded-md mt-10 lg:mt-0 mb-10 lg:mb-0">
-              <img src="/images/portfolio/proximamente.jpg" alt="project" className="w-[100%] h-[150px]" />
-              <h3 className="mt-4 text-2xl">Sin titulo</h3>
+              <img src="/images/portfolio/cursoJS.jpg" alt="project" className="w-[100%] h-[150px]" />
+              <h3 className="mt-4 text-2xl">JavaScript Calculos</h3>
             </a>
           </Link>
         </div>

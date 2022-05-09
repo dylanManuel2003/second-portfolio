@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="w-[100%] h-auto lg:h-[100vh] bg-gray-700 flex flex-col justify-center items-start text-white text-center" id="sectionAbout">
       <div className='w-[100%] h-[100%] mt-5'>
-          <div>
-            <h2 className="text-3xl font-semibold text-white">About Me</h2>
+        <h2 className="text-3xl font-semibold text-white">About Me</h2>
+          <div className='mt-10'> 
             <p className="pt-5 text-xl">I'm a junior web developer, with knowledge in fontend and backend, web3.0 enthusiast.<br/>
             My vision is to build technological products that help and facilitate people's day-to-day tasks.</p>
           </div>
@@ -34,7 +34,9 @@ const About = () => {
                 <Image src="/images/tech/github.png" alt="logo github" width="300" height="300"/></li>
             </ul>
           </div>
-          <button className="p-3 m-5 border-2">Download CV</button>
+          <a download href="https://drive.google.com/file/d/1VaSLG3BafseInBNyd8PyTmbi7-MDLHWW/view?usp=sharing">
+            <button className="p-3 m-5 border-2">Download CV</button>
+          </a>
       </div>
     </div>
   )
