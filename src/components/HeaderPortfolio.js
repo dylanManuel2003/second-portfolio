@@ -12,10 +12,9 @@ const HeaderPortfolio = () => {
             <span className='pl-2'>Back</span>
           </a>
         </Link>
-        <h1 className="text-3xl font-semibold text-violet-500 font-Comfortaa">
-            <span className="text-white">/\</span> 
-            Dylan Peralta
-        </h1>
+        <span className="flex items-center justify-center">
+            <img src='/images/DylanPeralta.png' alt='Dylan Peralta brand' className='w-auto h-[40px] ' />
+        </span>
   </header>
   )
 }

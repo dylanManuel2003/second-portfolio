@@ -5,8 +5,9 @@ const Footer = () => {
   return (
     <div className="w-[100%] h-[50vh] bg-gray-900 flex flex-col justify-center">
       <div className="flex flex-col lg:flex-row">
-        <div className="p-5 m-auto font-semibold text-center">
-          <h2 className="text-5xl text-violet-500">Dylan Peralta</h2>
+        <div className="flex flex-col items-center justify-center p-5 m-auto font-semibold">
+          <img src='/images/DylanPeralta.png' className='w-auto h-[50px] m-auto' />
+          {/* <h2 className="text-5xl text-violet-500">Dylan Peralta</h2> */}
           <h3 className="text-3xl text-white">Web Developer</h3>
         </div>
         <div className="m-auto text-center text-white">

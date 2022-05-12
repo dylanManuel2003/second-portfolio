@@ -11,7 +11,8 @@ const Header = () => {
 
   return ( 
     <header className='z-50 w-[100vw] h-auto flex px-12 py-4 bg-gray-900 fixed shadow-xl justify-between'>
-      <h1 className="text-3xl font-semibold text-violet-500"><span className="text-white">/\</span> Dylan Peralta</h1>
+      <img src='/images/DylanPeralta.png' alt='dylan perlta brand' className='w-auto h-[30px]' />
+      {/* <h1 className="text-3xl font-semibold text-violet-500"><span className="text-white">/\</span> Dylan Peralta</h1> */}
       <div className='hidden my-auto lg:block'>
         <NavLinks />  
       </div>

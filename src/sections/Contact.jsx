@@ -1,6 +1,5 @@
 
 const Contact = () => {
-
   const styleInputs = "w-[90%] m-auto mb-5 bg-transparent border-b-4 border-violet-700 focus:outline-0"
 
   return (
