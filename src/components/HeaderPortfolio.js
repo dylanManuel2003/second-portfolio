@@ -13,7 +13,7 @@ const HeaderPortfolio = () => {
           </a>
         </Link>
         <span className="flex items-center justify-center">
-            <img src='/images/DylanPeralta.png' alt='Dylan Peralta brand' className='w-auto h-[40px] ' />
+            <img src='/images/DylanPeralta.png' alt='Dylan Peralta brand' className='w-auto h-[20px] lg:h-[40px] ' />
         </span>
   </header>
   )

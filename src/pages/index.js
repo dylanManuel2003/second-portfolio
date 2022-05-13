@@ -13,7 +13,7 @@ export default function index() {
     <Layout >
       <Home />
       <About />
-      {/* <Services /> */}
+      <Services />
       <Portfolio />
       <Contact />
       <Footer />

@@ -4,13 +4,19 @@ const About = () => {
   return (
     <div className="w-[100%] h-auto lg:h-[100vh] bg-gray-700 flex flex-col justify-center items-start text-white text-center" id="sectionAbout">
       <div className='w-[100%] h-[100%] mt-5'>
-        <h2 className="text-3xl font-semibold text-white">About Me</h2>
-          <div className='mt-10'> 
+        <div className='w-[100%] flex flex-col justify-center items-center'>
+          <h2 className="text-3xl font-semibold text-white">About Me</h2>
+          <div className='w-[100px] bg-violet-600 h-2'></div>
+        </div>
+          <div className='mt-10 w-[80%] m-auto'> 
             <p className="pt-5 text-xl">I'm a junior web developer, with knowledge in fontend and backend, web3.0 enthusiast.<br/>
-            My vision is to build technological products that help and facilitate people's day-to-day tasks.</p>
+            My vision is to build technological products that help and facilitate people's day-to-day tasks.<br/>
+            Continuously learning and acquiring new skills based on current and future demands and technological trends in the field of design and development of web applications in general.<br/>
+            Passionate about the work I do, offering and contributing my knowledge, skills and experience, as well as new ideas, solutions, customization and quality monitoring to the client and their objective in each project.
+            </p>
           </div>
           <div className="w-[80%] flex justify-center flex-col mx-auto h-auto p-5 mt-20">
-            <h3 className="text-2xl font-semibold">Technologies</h3>
+            <h3 className="text-2xl font-semibold underline text-violet-500">Technologies</h3>
             <ul className="flex w-[100%] justify-center px-10 mt-10 object-cover">
               <li className='w-[60px] h-[60px] '>
                 <Image src="/images/tech/html-5.png" alt="logo html" width="300" height="300" className='block' /></li>
@@ -35,7 +41,7 @@ const About = () => {
             </ul>
           </div>
           <a download href="https://drive.google.com/file/d/1VaSLG3BafseInBNyd8PyTmbi7-MDLHWW/view?usp=sharing">
-            <button className="p-3 m-5 border-2">Download CV</button>
+            <button className="btn-about">Download CV</button>
           </a>
       </div>
     </div>

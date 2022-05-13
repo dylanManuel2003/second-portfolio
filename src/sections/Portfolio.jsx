@@ -4,7 +4,10 @@ const Portfolio = () => {
   return (
     <section className="w-[100%] h-auto lg:h-[100vh] bg-gray-700 text-white flex justify-center" id="sectionPortfolio">
       <div className="w-[100%] text-center">
-        <h2 className="mt-10 text-3xl font-semibold text-white">Portfolio</h2>
+        <div className='w-[100%] flex flex-col justify-center items-center mt-10'>
+          <h2 className="text-3xl font-semibold text-white">Portfolio</h2>
+          <div className='w-[100px] bg-violet-600 h-2'></div>
+        </div>
         <div className="w-[80%] h-auto lg:h-[70%] flex flex-col m-auto lg:flex-row lg:justify-between mt-20">
           <Link href={'/pageapp/country-app'}>
             <a className="w-[90%] lg:w-1/3 h-[250px] bg-gray-900 mx-5 text-center border-4 border-whiter rounded-md">

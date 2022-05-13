@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 
+/* Home */
 .home-bg{
     background: linear-gradient(120deg, #a003c7 0%, #660166 100%), linear-gradient(120deg, #4b0052 0%, #00071A 100%), linear-gradient(180deg, #fafafa 0%, #f7f7f7 100%), linear-gradient(60deg, #000000 0%, #a003c7 100%), radial-gradient(100% 165% at 100% 100%, #a003c7 0%, #96179b 100%), radial-gradient(100% 150% at 0% 0%, #cc00ff 0%, #aa00d5 100%);
     background-blend-mode: overlay, color-dodge, overlay, overlay, difference, normal;
@@ -26,6 +27,37 @@
     cursor: pointer;
     color: #7c3aed;
 }
+
+.box-home{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-items: bottom;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(255,255,255, 0.4));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-home img{
+}
+
+/* About Me */
+.btn-about{
+    border-radius: 3px;
+    border: 3px solid #fff;
+    padding: 12px;
+    margin: 20px;
+    color: #fff;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.btn-about:hover{
+    border: 3px solid #05F100;
+    color: #f7f7f7; 
+    background-color: #7c3aed;
+
+}
+
 @media(max-width:1024px){
     .navLinks{
         margin: 20px 0;
