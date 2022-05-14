@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 72.5%;
+}
+
 /* Home */
 .home-bg{
     background: linear-gradient(120deg, #a003c7 0%, #660166 100%), linear-gradient(120deg, #4b0052 0%, #00071A 100%), linear-gradient(180deg, #fafafa 0%, #f7f7f7 100%), linear-gradient(60deg, #000000 0%, #a003c7 100%), radial-gradient(100% 165% at 100% 100%, #a003c7 0%, #96179b 100%), radial-gradient(100% 150% at 0% 0%, #cc00ff 0%, #aa00d5 100%);

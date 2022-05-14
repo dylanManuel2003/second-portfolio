@@ -1,10 +1,10 @@
 import NavLinks from './NavLinks';
 
 
-const NavbarMobile = () => {
+const NavbarMobile = ({menuMobile, setMenuMobile}) => {
   return (
-    <nav className='w-[100%] h-[100vh] flex justify-center bg-gray-800 absolute top-[70px] left-0'>
-        <NavLinks />
+    <nav className='w-[100%] h-[100vh] flex justify-center bg-gray-800 absolute top-[68px] left-0'>
+        <NavLinks setMenuMobile={setMenuMobile} />
     </nav>
   )
 }

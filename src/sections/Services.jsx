@@ -18,7 +18,6 @@ const Services = () => {
         </div>
         <div className="shadow-md shadow-black transition duration-500 hover:shadow-violet-400 hover:shadow-lg rounded-xl w-[100%] h-[100%] bg-[url('/images/services/image4.jpg')] bg-cover">
           <h4 className="p-5 font-sans text-4xl text-white text-border">Web 3.0</h4>
-          <span className="pl-5">Proximamente...</span>
         </div>
       </div>
     </div>

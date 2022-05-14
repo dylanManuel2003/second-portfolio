@@ -3,7 +3,7 @@ import {faLinkedinIn, faInstagramSquare, faEnvelopeSquare} from '@fortawesome/fr
 
 const Footer = () => {
   return (
-    <div className="w-[100%] h-[50vh] bg-gray-900 flex flex-col justify-center">
+    <div className="w-[100%] h-[60vh] bg-gray-900 flex flex-col justify-center">
       <div className="flex flex-col lg:flex-row">
         <div className="flex flex-col items-center justify-center p-5 m-auto font-semibold">
           <img src='/images/DylanPeralta.png' className='w-auto h-[50px] m-auto' />
@@ -12,15 +12,15 @@ const Footer = () => {
         </div>
         <div className="m-auto text-center text-white">
           <h3 className="text-3xl">Social Media</h3>
-          <div className="mx-auto w-[152px]">
+          <div className="mx-auto flex w-[152px]">
             <a href="https://www.linkedin.com/in/dylan-peralta-a947a4217/" title="@Dylan Peralta" target="_blank" className="p-3">
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <img src='/images/icons/linkedin-icon.png' alt='' className='' />
             </a>
             <a href="https://www.instagram.com/dylann_peralta/?hl=es" title="@dylann_peralta" target="_blank" className="p-3">
-              <FontAwesomeIcon icon={faInstagramSquare} />
+              <img src='/images/icons/instagram-icon.png' alt='' className='' />
             </a>
-            <a href="#contact" title="dylanperaltasalerno@gmail.com" className="p-3">
-              <FontAwesomeIcon icon={faEnvelopeSquare} />
+            <a href="https://github.com/dylanManuel2003" title="dylanManuel2003" className="p-3">
+              <img src='/images/icons/github-icon.png' alt='' className='' />
             </a>
           </div>
         </div>
